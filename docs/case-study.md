@@ -35,7 +35,7 @@ flowchart LR
 - External repository links can move or become private.
 - The site has no analytics or form backend.
 - Claims can become stale unless benchmark reports and screenshots are regenerated.
-- No resume, LinkedIn URL, or public contact address was found during the audit; the site shows only verified GitHub contact information and an explicit resume placeholder.
+- No resume, LinkedIn URL, or public contact address was found during the audit; the current site uses the GitHub profile link and omits unavailable contact assets.
 
 ## Reproduce
 
@@ -44,3 +44,9 @@ python -m http.server 8000
 # Open http://127.0.0.1:8000
 node scripts/check-site.mjs
 ```
+
+## September 2026 portfolio refresh
+
+The homepage now leads with graduate/junior scope, Australian citizenship, expected December 2026 completion and six public repositories. It removes the disabled resume control, private-project headline cards and the toolkit whose implementation remains unmerged. The existing app screenshots illustrate their respective projects; the standalone portfolio screenshots remain historical July captures.
+
+The new evidence links include workflow regression tests, upload-retry tests, SQL reconciliation and a measured scheduling comparison. Historical timings above remain historical; no provider inference latency is inferred from local fallback measurements.

@@ -96,7 +96,8 @@ footer { max-width: 1160px; margin: auto; padding: 28px 24px 42px; display: flex
   .hero-grid { margin-top: 18px; }
   h1 { font-size: 3.25rem; }
   .hero-role { font-size: 1.12rem; }
-  .hero .lede, .proof-list { display: none; }
+  .proof-list { display: none; }
+  .hero .lede { font-size: .92rem; }
   .actions { margin-top: 18px; }
   .project-grid, .skill-grid { grid-template-columns: 1fr; }
   .project-featured { grid-template-columns: 1fr; min-height: 0; }
@@ -112,3 +113,5 @@ footer { max-width: 1160px; margin: auto; padding: 28px 24px 42px; display: flex
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.supporting-work { color: #586761; line-height: 1.7; margin-top: 24px; }

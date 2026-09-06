@@ -1,42 +1,29 @@
-# Salman Chowdhury — AI & Data Engineering Portfolio
+# Salman Chowdhury — Software, AI and Data Portfolio
 
-A lightweight recruiter-facing portfolio site presenting selected AI, data, automation and software projects as one coherent engineering narrative.
+A lightweight GitHub Pages portfolio for graduate and junior software, testing, data, automation and application-support opportunities. It presents six public projects with source, test and result links.
 
-![Portfolio desktop view](screenshots/portfolio-desktop.png)
+**Live site:** https://salman-chowdhury.github.io/portfolio/
 
-[Architecture, trade-offs, validation, and limitations](docs/case-study.md)
+## Featured work
 
-## Features
+- AI FAQ Chatbot — RAG and browser tests, with clearly scoped offline evaluation.
+- Council Request Workflow — typed workflow rules, regression tests and recovery.
+- Web to Sheets — Python integration, delivery retries and troubleshooting.
+- Asset Insights — SQL reporting and source-to-output reconciliation.
+- Job-Shop Scheduling Lab — scheduling constraints and operational trade-offs.
+- Time-Series Forecasting — chronological evaluation and baseline comparison.
 
-- Responsive single-page design
-- Project filters for AI systems, data/automation and software
-- Recruiter snapshot and technical-capability sections
-- Direct links to flagship repositories
-- Direct links to case studies and measured benchmark reports
-- Actual AI FAQ, TrainForge and council workflow screenshots
-- GitHub Pages deployment workflow
-- Pull-request validation for required assets and project links
+Power Apps evidence and the SaaS workspace prototype remain supporting links. Private-project summaries and the unmerged LLM evaluation toolkit are not headline projects.
 
-## Local preview
-
-Open `index.html` directly or serve the directory:
+## Local preview and validation
 
 ```bash
 python -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
-
-## Validation
-
-```bash
 node scripts/check-site.mjs
 ```
 
-The July 2026 Playwright audit covered 1440 x 1000, 390 x 844, and 320 x 700 viewports. It found no horizontal overflow, broken images, unnamed controls, console errors, or filter-state failures, and confirmed that the project section remains visible in the first viewport.
+Open `http://localhost:8000`. The site uses static HTML/CSS and JavaScript filters, with no tracking or contact form. GitHub Actions checks assets and evidence links before deploying to Pages.
 
-## Deployment
+The screenshots in `screenshots/` record the earlier July 2026 layout. They are retained as historical evidence and are not presented as the current homepage.
 
-GitHub Pages deploys the site from `main` through the repository's Actions workflow:
-
-https://salman-chowdhury.github.io/portfolio/
+[Architecture and validation history](docs/case-study.md)

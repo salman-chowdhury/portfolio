@@ -19,7 +19,8 @@ const requirements = [
   "aria-pressed=\"true\"",
   "ai-faq-chatbot/blob/main/evaluation/reports/v1/report.md",
   "DL_stock_pred/blob/main/evaluation/baselines-v1/report.md",
-  "llm-evaluation-toolkit/pull/2",
+  "job-shop-scheduling-feasibility-lab/blob/main/docs/reviewer-guide.md",
+  "council-request-workflow-demo/blob/main/tests/workflow.test.cjs",
 ];
 for (const requirement of requirements) {
   if (!html.includes(requirement)) {
