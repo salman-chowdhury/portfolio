@@ -1,0 +1,7 @@
+record_id,job_id,transaction_date,cost_type,value
+M-101,EL-101,10/11/2026,Materials,1125.00
+M-102,EL-102,2026-11-11,Materials,778.50
+M-104,EL-104,2026-11-11,Materials,1220
+M-105,EL-104,2026-11-12,Materials,-130
+M-ERR,EL-103,2026-11-13,Materials,TBC
+M-UNK,,2026-11-12,Materials,245
