@@ -1,0 +1,8 @@
+ref,project,work_date,kind,aud
+l-101, el-101 ,2026-11-10,labor,"1,440.00"
+L-103,EL-103,2026-11-12,Labour,770
+L-104,EL-104,2026-11-12,Labour,1080
+S-101,EL-101,2026-11-12,Subcontract,560
+S-104,EL-104,2026-11-13,Subcontract,640
+M-103,EL-103,13/11/2026,Material,685
+S-OLD,EL-104,2026-11-06,Subcontract,120
